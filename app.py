@@ -1,11 +1,8 @@
 import streamlit as st
 
-view = [100, 150, 30]
-st.write('# Youtube view')
-st.write('## raw')
-view
-st.write('## bar chart')
-st.bar_chart(view)
-import pandas as pd
-sview = pd.Series(view)
-sview
+
+st.set_page_config(
+  page_title="포켓못 야야",
+  page_icon="./images/monsterball.png"
+)
+st.title("Hello Streamlit 포켓몬 도감")
