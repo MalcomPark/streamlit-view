@@ -6,7 +6,7 @@ st.set_page_config(
   page_icon="./images/monsterball.png"
 )
 st.title("Magellan lalalal")
-st.markdown('**포켓못** 사진을 **추가** 해보등가....')
+st.markdown('**포켓못** 사진을 **추가** 펼쳐보세요....')
 
 type_emoji_dict = {
     "노말": "⚪",
