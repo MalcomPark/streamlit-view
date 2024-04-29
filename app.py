@@ -5,7 +5,7 @@ st.set_page_config(
   page_title="Magellan",
   page_icon="./images/monsterball.png"
 )
-st.title("Magellan lalalal")
+st.title("말콤의 포켓몬 그림 놀이")
 st.markdown('**포켓못** 사진을 **추가** 펼쳐보세요....')
 
 type_emoji_dict = {
