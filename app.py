@@ -35,7 +35,7 @@ pokemon = {
   "image_url" : "https://i.namu.wiki/i/W2JS6BjC2ET8_laTnzCMvReYmIgRPGSsmbSl1ZAQmjWE1e1hBJ9TuiHtUOny7acsb2Qqz3shnukm0frKhsgCBXuZcJYCnGVwWgxR22GXU2tEg9vww_Ud7uvqr13GKOlLMxMfkml9ut4JGQD16_wzCw.webp"
 }
 
-with st.expander(label=pokemon["name"], expanded=True):
+with st.expander(label=pokemon["name"]):
   st.image(pokemon["image_url"])
   emoji_types = [f"{type_emoji_dict[x]} {x}" for x in pokemon["types"]]
   st.subheader(" / ".join(emoji_types))
